@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/users/cs/shaji/tmp/xtra/main.c
+stdio.h
+-
+errno.h
+-
+xtra.h
+/users/cs/shaji/tmp/xtra/xtra.h
+
+/users/cs/shaji/tmp/xtra/xtra.c
+xtra.h
+/users/cs/shaji/tmp/xtra/xtra.h
+
+/users/cs/shaji/tmp/xtra/xtra.h
+
